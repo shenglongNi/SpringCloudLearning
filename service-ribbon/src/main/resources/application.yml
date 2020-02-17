@@ -7,5 +7,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/
-
-
+# ----------
+# 关闭从Eureka Server获取 服务类列表，静态配置服务列表
+#ribbon:
+#  listOfServers: localhost:7070
+#  eureka:
+#    enabled: false
+# ----------
