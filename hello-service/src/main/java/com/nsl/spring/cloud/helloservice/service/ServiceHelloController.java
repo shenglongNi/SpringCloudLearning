@@ -20,4 +20,9 @@ public class ServiceHelloController {
 
     }
 
+    @GetMapping("/getHello")
+    public String getHello(String name) {
+        return "Hello, " + name + "; how are you?";
+    }
+
 }
