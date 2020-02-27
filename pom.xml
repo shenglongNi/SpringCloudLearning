@@ -67,5 +67,6 @@
     <module>eureka-server</module>
     <module>hello-service</module>
     <module>service-ribbon</module>
+    <module>service-feign</module>
   </modules>
 </project>
